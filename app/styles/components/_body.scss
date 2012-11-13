@@ -1,0 +1,36 @@
+// body.scss
+
+.info-banner {
+	@include makeRow();
+
+	.metrics {
+		@include fluid-span(9);
+	}
+
+	.register {
+		@include fluid-span(2);
+	}
+}
+
+.getting-started {
+	@include makeRow();
+
+	.process-flow {
+		@include makeColumn(5);
+
+		background: url(http://placehold.it/400x200) no-repeat;
+		height: 200px;
+		width: 400px;
+	}
+
+	.description {
+		@include makeColumn(7);
+	}
+}
+
+.projects {
+	@include makeRow();
+
+
+}
+
