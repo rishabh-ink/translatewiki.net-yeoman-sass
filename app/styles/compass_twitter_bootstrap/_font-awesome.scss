@@ -21,9 +21,9 @@
     Work: http://lemonwi.se co-founder
 
     */
-   
+
 @import "compass/css3/font-face";
-$font_path: "fontawesome-webfont" !default;
+$font_path: "../../../app/components/font-awesome/font/fontawesome-webfont" !default;
 
 @include font-face(
     'FontAwesome',
