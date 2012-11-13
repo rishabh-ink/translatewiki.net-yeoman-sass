@@ -29,12 +29,6 @@
   @include box-shadow(0 1px 4px rgba(0,0,0,.065));
 }
 
-// Set width to auto for default container
-// We then reset it for fixed navbars in the #gridSystem mixin
-.navbar .container {
-  width: auto;
-}
-
 // Override the default collapsed state
 .nav-collapse.collapse {
   height: auto;
