@@ -1,3 +1,6 @@
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
 translatewiki.net's new home page
 ---------------------------------
 Wikimedia Foundation
