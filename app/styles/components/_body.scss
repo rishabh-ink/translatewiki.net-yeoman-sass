@@ -4,11 +4,11 @@
 	@include makeRow();
 
 	.metrics {
-		@include fluid-span(9);
+		@include makeColumn(9);
 	}
 
 	.register {
-		@include fluid-span(2);
+		@include makeColumn(2);
 	}
 }
 
@@ -19,8 +19,7 @@
 		@include makeColumn(5);
 
 		background: url(http://placehold.it/400x200) no-repeat;
-		height: 200px;
-		width: 400px;
+		min-height: 200px;
 	}
 
 	.description {
