@@ -1,5 +1,5 @@
 header {
 	@include img-gradient("../images/common/bghaze.png", #FFFFFF, 1, #FFFFFF, #85BEFF);
 
-	@include box-shadow(0 1px 2px 0 rgba(0, 0, 0, 0.25));
+	@include box-shadow(0 1px 3px 0 rgba(0, 0, 0, 0.5));
 }

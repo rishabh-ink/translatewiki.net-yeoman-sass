@@ -1,35 +1,55 @@
 // body.scss
 
+
+/* Common body styles */
+body {
+	background: url("../images/common/gplaypattern.png");
+}
+/* /Common body styles */
+
+/* Large branding styles */
 .info-banner {
 	@include makeRow();
 
 	.metrics {
-		@include makeColumn(9);
+		@include makeColumn(10);
 	}
 
 	.register {
-		@include makeColumn(2);
+		@include makeColumn(4);
 	}
 }
+/* /Large branding styles */
 
+/* Main content section styles */
 .getting-started {
-	@include makeRow();
+	// @include makeRow();
 
 	.process-flow {
-		@include makeColumn(5);
+		@include fluid-span(3);
 
 		background: url(http://placehold.it/400x200) no-repeat;
 		min-height: 200px;
 	}
 
 	.description {
-		@include makeColumn(7);
+		@include fluid-span(8);
 	}
 }
+/* /Main content section styles */
 
+/* Projects list styles */
 .projects {
 	@include makeRow();
 
+	ul {
+		list-style: none;
+		//@include makeRow();
+	}
 
+	.project {
+		display: inline-block;
+		@include makeColumn(1);
+	}
 }
-
+/* /Projects list styles */
